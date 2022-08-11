@@ -280,6 +280,7 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .myWork {
@@ -310,6 +311,10 @@ h2 {
 
 .arrowBut:hover {
     background: #755CDE;
+}
+
+.arrowsParent {
+    margin-top: 32px;
 }
 
 .blackSec {
@@ -350,7 +355,8 @@ h2 {
     margin-top: 24px;
     margin-bottom: 24px;
 }
-footer{
+
+footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -360,4 +366,190 @@ footer{
     margin-right: 15px;
     margin-top: 42px;
     margin-bottom: 34px;
+}
+
+.patternImage {
+    height: 180px;
+    width: 270px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.image1 {
+    display: none;
+}
+
+.image5 {
+    display: none;
+}
+
+.leftArrow {
+    margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        margin-bottom: 68px;
+    }
+
+    .logo {
+        width: 64px;
+        height: 64px;
+        margin-right: 397px;
+    }
+
+    .headerButton {
+        height: 56px;
+        width: 228px;
+    }
+
+    .topHeadline {
+        height: 55px;
+        width: 690px;
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .topParagraph {
+        height: 56px;
+        width: 573px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .topHeadline {
+        margin-bottom: 27px;
+    }
+
+    .colorDivs {
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topG {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .thirdDiv {
+        margin-top: 0px;
+        margin-left: 24px;
+    }
+
+    .forthDiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Motion {
+        margin-left: 24px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 120px;
+    }
+
+    .girlImage {
+        width: 364px;
+        height: 364px;
+        transform: translateX(-21%);
+    }
+
+    .mainText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    h2 {
+        display: flex;
+        text-align: left;
+        font-size: 32px;
+        line-height: 40px;
+        height: 120px;
+        width: 339px;
+    }
+
+    .articleP {
+        font-size: 18px;
+        line-height: 28px;
+        height: 140px;
+        width: 339px;
+        display: flex;
+        text-align: left;
+    }
+
+    .yellowBut {
+        height: 44px;
+        width: 176px;
+    }
+
+    .myWork {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 56px;
+    }
+
+    .patternImage {
+        height: 360px;
+        width: 540px;
+    }
+
+    .arrowsParent {
+        margin-top: 56px;
+    }
+
+    .arrowBut {
+        height: 64px;
+        width: 64px;
+    }
+
+    .blackSec {
+        height: 352px;
+        width: 690px;
+    }
+
+    .blackP {
+        height: 84px;
+        width: 540px;
+        margin-bottom: 26px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blachHeadline {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 26px;
+    }
+
+    .secYellow {
+        height: 56px;
+        width: 228px;
+    }
+
+    .fLogo {
+        height: 64px;
+        width: 64px;
+        margin-right: 397px;
+    }
+
+    .purpBut {
+        height: 56px;
+        width: 228px;
+    }
+
 }
